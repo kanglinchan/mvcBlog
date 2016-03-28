@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>list</title>
+</head>
+<body>
+    <h1>student list</h1>
+    <table width="300" border="1" border-collapse="0">
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>CONCTROLLER</th>
+        </tr>
+        <?php foreach( $data as $v ): ?>
+        <tr>
+            <td> <?php echo $v['id']; ?> </td>
+            <td> <?php echo $v['name']; ?> </td>
+            <td><a href="/index.php/home/student/info/id/<?php echo $v['id']; ?>">cheack</a> </td>
+        </tr>
+        <?php endForeach; ?>
+    </table>
+</body>
+</html>

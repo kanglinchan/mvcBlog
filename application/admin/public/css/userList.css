@@ -1,0 +1,16 @@
+span{
+    width:140px;
+    padding: 2px;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 0;
+
+
+}
+
+li{
+    border: 1px solid #222222;
+    margin: -1px auto;
+}

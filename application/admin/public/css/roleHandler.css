@@ -1,0 +1,22 @@
+
+body{
+    margin: 0; padding: 0;
+}
+
+.module{
+    margin: 10px auto;
+    width: 80%;
+    border: 1px solid darkgrey;
+}
+
+.controller{
+    background-color: darkgray;
+    height: 40px;
+    text-indent: 20px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.method{
+    margin: 10px 30px;
+}

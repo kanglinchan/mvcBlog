@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>info</title>
+</head>
+<body>
+    <h1>student information</h1>
+
+<table width="300" border="1" cellpadding="0" >
+    <tr>
+        <th>ID</th>
+        <th> <?php echo $data['id'] ?> </th>
+    </tr>
+    <tr>
+        <th>name</th>
+        <th> <?php echo $data['name'] ?> </th>
+    </tr>
+    <tr>
+        <th>sex</th>
+        <th> <?php echo $data['gender'] ?> </th>
+    </tr>
+    <tr>
+        <th>age</th>
+        <th> <?php echo $data['age'] ?> </th>
+    </tr>
+</table>
+
+</body>
+<a href="/index.php/home">comeback</a>
+</html>
